@@ -6,4 +6,4 @@ hellohackers();
 function whowherehow(who, where, how) {
     console.log(`Result: ${who} ${where} ${how}.`);
 }
-whowherehow(Rauf, Barda, Live);
+whowherehow(who='Rauf', where='Barda', how='Live');
